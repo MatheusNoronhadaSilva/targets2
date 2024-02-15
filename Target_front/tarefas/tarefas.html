@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tarefas.css">
+    <script src="/login/tarefas.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../img/target.png" alt="">
+        <nav>
+            <h1>TODAS</h1>
+            <H1>PENDENTES</H1>
+            <H1>CONCLUIDAS</H1>
+            <div class="pesquisa">
+                <img src="../img/lupa.png" alt="">
+                <input id="pesquisar" placeholder="Pesquise aqui" type="text">
+            </div>
+        </nav>
+        <div class="perfil">
+            <h2 class="user" >Matheus Noronha</h2>
+        <img class="perfil_mg" src="../img/login2.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="lista">
+            <div class="categoria_lista">
+                <h3>Pendentes</h3>
+                <img id="adicionar" src="../img/adiconar.png" alt="" class="adiconar">
+            </div>
+            <div id="lista_tarefas" class="lista_tarefas">
+                    <div class="tarefa">
+                        <span>id</span>
+                        <span>descrição</span>
+                        <span>dataConclusão</span>
+                    </div>
+            </div>
+        </div>
+        <div class="tarefasDiv" id="tarefasDiv">
+            <div class="divCard" id="divCard"></div>
+        </div>
+    </main>
+</body>
+</html>
